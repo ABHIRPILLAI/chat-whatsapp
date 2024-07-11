@@ -1,0 +1,57 @@
+.div-file-attach {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 66%;
+    left: 40%;
+}
+.icons-attach-footer {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: black;
+}
+.image-view-div {
+    position: absolute;
+    top: 5%;
+    left: 36%;
+}
+.image-show {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-top: -80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.show-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.icons-image{
+     width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+}
+.image-container
+{
+    display: flex;
+    justify-content: start;
+}
+

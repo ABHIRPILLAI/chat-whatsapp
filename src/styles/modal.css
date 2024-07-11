@@ -1,0 +1,72 @@
+.modal-popup {
+    border: 1px solid;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    background-color: white;
+    z-index: 999;
+    width: 700px;
+}
+.btn-group {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 5px;
+}
+.save-btn {
+    background-color: rgb(153, 0, 255);
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.close-btn {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.back-drop {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}
+.input-name
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-image
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    padding-left: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  outline: none;
+}
+label{
+    font-size: 15px;
+}

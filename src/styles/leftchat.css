@@ -1,0 +1,38 @@
+.left-chat {
+    position: relative;
+    border-width: 0px 0 10px 10px;
+    padding: 15px;
+    margin: 10px;
+}
+.left-chat-div {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-color: transparent transparent transparent #e1ffc7;
+    background-color: rgb(237, 237, 237);
+    border-radius: 15px 0px 5px 15px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.message-recieved-name
+{
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+}
+.message-recieved-content
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.message-recieved{
+    padding-bottom: 10px;
+}
+.time-stamp-recieved
+{
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

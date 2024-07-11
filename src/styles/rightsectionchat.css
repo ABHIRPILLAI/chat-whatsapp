@@ -1,0 +1,9 @@
+.chat-main-div
+{   
+    height: 380px;
+    background-image: url(../../public/images/bgaaa.png);
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+     overflow-x: hidden;
+}

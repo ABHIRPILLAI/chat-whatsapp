@@ -1,0 +1,32 @@
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.left-section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.left-section-header-div2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons-left-section {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icons-left-section:hover
+{
+    background-color: rgb(232, 232, 232);
+}
